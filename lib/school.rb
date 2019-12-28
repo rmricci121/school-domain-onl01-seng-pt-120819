@@ -5,6 +5,7 @@ class School
     @school = school
   end
 
-  def 
-  
-end
+  def school
+    @school = school
+    roster = {}
+  end
