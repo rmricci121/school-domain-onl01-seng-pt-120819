@@ -1,12 +1,9 @@
 class School
 
   #ROSTER = {}
-  def initialize(school)
-    @school = school
+  def initialize(name)
+    @name = name
   end
 
-  def school
-    @school = school
-    roster = {}
-  end
+  
 end
