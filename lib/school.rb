@@ -3,9 +3,10 @@ class School
   attr_accessor  :length, :grade, :add_student
   attr_reader :school, :roster
   
-  ROSTER = {}
+  #ROSTER = {}
   def initialize(school)
     @school = school
+    roster = {}
   end
 
   def roster=(roster)
