@@ -17,7 +17,7 @@ class School
   end
 
   def grade(grade)
-    sel.roster[grade]
+    self.roster[grade]
   end
   
 end
