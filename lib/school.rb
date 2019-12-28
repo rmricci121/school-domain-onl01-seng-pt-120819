@@ -1,5 +1,5 @@
 class School
-  #roster = {}
+  ROSTER = {}
 
   attr_accessor :roster
   attr_reader :name
